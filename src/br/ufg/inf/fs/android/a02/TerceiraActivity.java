@@ -10,6 +10,7 @@ import android.view.Menu;
 public class TerceiraActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.terceira);
     }
 
     @Override
