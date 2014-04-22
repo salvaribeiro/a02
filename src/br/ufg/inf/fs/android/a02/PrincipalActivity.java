@@ -25,7 +25,7 @@ public class PrincipalActivity extends Activity {
             startActivity(intent);
             return true;
         } else if (id == R.id.vaiParaAtividade3) {
-            Intent intent = new Intent(this, SegundaActivity.class);
+            Intent intent = new Intent(this, TerceiraActivity.class);
             startActivity(intent);
             return true;
         }
