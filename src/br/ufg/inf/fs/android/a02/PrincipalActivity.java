@@ -28,6 +28,9 @@ public class PrincipalActivity extends Activity {
             Intent intent = new Intent(this, TerceiraActivity.class);
             startActivity(intent);
             return true;
+        }  else if (id == R.id.menuprimeira_fechar) {
+            finish();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

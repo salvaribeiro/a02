@@ -5,4 +5,6 @@
          android:title="@string/Atividade2" />
     <item android:id="@+id/vaiParaAtividade3"
           android:title="@string/Atividade3" />
+    <item android:id="@+id/menuprimeira_fechar"
+          android:title="@string/sair" />
 </menu>
