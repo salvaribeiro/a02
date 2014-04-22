@@ -10,5 +10,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:layout_gravity="center_horizontal"
-        android:text="Segunda atividade"/>
+        android:text="@string/segunda_texto"/>
 </LinearLayout>
