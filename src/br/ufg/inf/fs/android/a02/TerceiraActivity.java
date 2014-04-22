@@ -25,11 +25,11 @@ public class TerceiraActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.menuterceria_segunda) {
+        if (id == R.id.menuterceira_segunda) {
             Intent intent = new Intent(this, SegundaActivity.class);
             startActivity(intent);
             return true;
-        } else if (id == R.id.menuterceria_fechar) {
+        } else if (id == R.id.menuterceira_fechar) {
             finish();
             return true;
         }
